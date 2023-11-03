@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+
+html{
+	height: 100%;
+}
+
+
+body{
+	
+	background-color:#e6e6fa;
+	font-family: 'Josefin Sans', Arial;
+
+}
+
+#grades{
+	display: none;
+}
+
+.error {
+	color: red;
+}
+
+select {
+	margin: 10px;
+	margin-left:  20px;
+	width: 120px;
+  padding: 2px;
+  line-height: 32px;
+  text-indent: 4px;
+  cursor: pointer;
+}
+
+button{
+	margin: 10px auto 0;
+	padding: 5px;
+	font-size: 12px;
+	text-align: center;
+	border: 1px round #2E1263;
+}
+
+button:hover {
+	transition: 0.3s;
+	background-color: rgba(106,90,205);
+	
+}
+
+a {
+  color: rgba(106,90,205);
+}
+
+a:hover {
+  color: #e6e6fa;
+}
+
+.btn {
+  background-color: rgba(106,90,205);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: #00008B;
+}
+
+/* Light Box CSS*/
+
+.hidden{
+	display: none;
+}
+
+.unhidden {
+	display: block;
+}
+
+#x {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 30px;
+	width: 30px;
+	z-index: 2;
+}
+
+#bigImage{
+	z-index: 1;
+}
+#boundaryBigImage{
+	width: 517px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#positionBigImage{
+	position: absolute; 
+	top: 15px;
+	left: 0px;
+	width: 100%;
+}
+
+#main {
+	padding: 40px;
+	width: 75%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#lightbox{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, 0.5);
+}
+
+/* Feed ------------------- */
+
+#bigBox{
+	display: grid;
+	
+}
+
+.cards{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-bottom: 45px;
+	background-color: #f0eeed;
+}
+
+.postUser{
+	margin: 10px 10px 10px;
+}
+
+.postInfo{
+	margin: 10px 10px 10px
+}
+
+/* Login ------------------- */
+
+.box{
+	display: grid;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	height: 100%;
+}
+
+.card{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	height: 500px;
+	border: 2px solid black;
+	background-color: white;
+	
+}
+
+#postCard{
+	height: 350px;
+}
+
+#signCard{
+	width: 750px;
+	margin-left: 200px;
+}
+
+#signForm{
+	margin-left: 50px;
+}
+
+#form{
+	text-align: center;
+	margin-top: 50px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#Jastagram{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	margin-bottom: 50px;
+	font-size: 50px;
+	font-family: 'Comic Sans MS';
+	color: #6667AB;
+}
+
+#typeUsername{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	margin-top: 10px;
+	
+}
+
+#loginBtn{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	margin-top: 10px;
+}
+
+#username{
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	resize: none;
+}
+
+#clickLogin{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	width: 150px;
+}
+
+#signUp{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+	width: 150px;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+}
+
+/*SignUp -------------------*/
+
+#feedNav{
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#userNav{
+	grid-template-columns: 1fr 1fr;
+}
+
+.nav{
+    background-color: rgba(106,90,205,0.9);
+    height: 60px;
+    display: grid;
+    position:fixed;
+    width: 100%;
+    top:0px;
+    font-family: 'Playball', cursive;
+    font-size: 20px; 
+}
+.nav > a{
+    border: 1px solid #00008B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #e6e6fa;
+    font-weight: bold;
+}
+.nav > a:hover{
+    background-color: #00008B;
+    color: #e6e6fa;
+}
+
+
+#img{
+	border-radius: 50%;
+}
